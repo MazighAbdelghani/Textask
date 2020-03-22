@@ -1,0 +1,99 @@
+
+/*start our framework*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container {
+    
+    width: 1200px;
+    margin: auto
+    
+}
+
+ul {
+    list-style: none
+}
+
+ul li  a {text-decoration: none; color: #fff}
+
+
+
+/*end of our framework */
+
+/*start header section*/
+
+header {
+    
+    height: 80px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+   
+}
+
+
+
+
+header .logo {
+    float: left;
+    line-height: 73px
+}
+
+header .logo p {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-style: italic;
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+    line-height: 73px
+}
+
+
+header nav ul li {
+    display: inline-block;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-right: 25px
+}
+
+
+/*end of header section */
+
+
+
+.content {
+    min-height: 800px;
+    padding-top: 100px;
+  
+}
+
+.content form textarea {
+    display: block;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    padding: 15px;
+    outline: 0;
+    border-radius: 5px
+}
+
+
+.content form label {margin-left: 200px; font-size: 18px}
+.content form .suppesp {margin-top: 15px;}
+
+.content p  {
+    margin-left: 200px;
+    margin-top: 15px;
+    font-size: 18px
+}
